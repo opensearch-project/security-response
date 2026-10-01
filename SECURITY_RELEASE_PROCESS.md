@@ -41,10 +41,11 @@ For Critical issues, an out-of-band release is expected regardless of effort. Fo
 The SRT will:
 
 1. Confirm the vulnerability and its scope.
-2. Reserve a CVE ID if one has not already been assigned.
-3. Create a [Draft GitHub Security Advisory (GHSA)](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/creating-a-repository-security-advisory) on the affected repository.
-4. Negotiate an [embargo timeline](EMBARGO_POLICY.md) with the reporter.
-5. Update the tracking board status to **In Review**.
+2. Assign a [vulnerability class](VULNERABILITY_CLASSES.md) to each finding, which sets the CWE on the advisory and narrows which component owns the affected code.
+3. Reserve a CVE ID if one has not already been assigned.
+4. Create a [Draft GitHub Security Advisory (GHSA)](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/creating-a-repository-security-advisory) on the affected repository.
+5. Negotiate an [embargo timeline](EMBARGO_POLICY.md) with the reporter.
+6. Update the tracking board status to **In Review**.
 
 ## 3. Fix Development
 
