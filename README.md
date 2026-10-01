@@ -13,6 +13,7 @@ To report a vulnerability, email **security@opensearch.org** or use the **Securi
 | [Private Fix Guidelines](PRIVATE_FIX_GUIDELINES.md) | Working with Draft GHSAs, temporary private forks, and commit message hygiene |
 | [Embargo Policy](EMBARGO_POLICY.md) | Embargo terms, timelines, and pre-disclosure list |
 | [Roles and Responsibilities](ROLES.md) | SRT and Security TAG charter, membership, and how they interact |
+| [Vulnerability Classes](VULNERABILITY_CLASSES.md) | Shared vocabulary for what kind of issue a report describes, and the dispositions assessment can reach |
 | [Comms Templates](comms-templates/) | Email, Slack, and forum templates for each stage of the process |
 
 ## Security Response Team (SRT)
